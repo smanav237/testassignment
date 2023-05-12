@@ -1,0 +1,242 @@
+#root {
+  max-width: 1280px;
+  margin:0;
+  padding:0;
+  text-align: center;
+}
+.body {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale
+}
+
+html {
+  background-color: #fff!important;
+  box-sizing: border-box
+}
+html::-webkit-scrollbar {
+  display: none;
+}
+
+/* MY CSS */
+.collaborate {
+  text-align: left;
+  padding: 3% 18%
+}
+
+.collaborate h4 {
+  font-weight: bolder
+}
+
+@media screen and (max-width: 1500px) {
+  .collaborate {
+      padding: 3% 5%
+  }
+}
+
+.servicesMainDiv {
+  padding: 3% 18%;
+  text-align: left;
+  font-family: serif
+}
+
+.servicesDescription {
+  padding-right: 30%
+}
+
+.servicesH2 h2 {
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 400%;
+  -webkit-font-feature-settings: "pnum" on,"lnum" on;
+  font-feature-settings: "pnum" on,"lnum" on
+}
+
+.servicesH3 {
+  margin-bottom: 3%;
+  padding: 9% 0 20%
+}
+
+.servicesH3 h3 {
+  font-weight: lighter
+}
+
+.serviceImage {
+  width: 95%;
+  height: 90%;
+  object-fit: cover
+}
+
+.servicesP p {
+  display: inline-block;
+  font-weight: bolder;
+  font-size: 1.2rem
+}
+
+.servicesP p:hover {
+  color: #555151
+}
+
+.servicesP p:hover+img {
+  position: relative;
+  -webkit-animation-name: change;
+  animation-name: change;
+  -webkit-animation-duration: .5s;
+  animation-duration: .5s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out
+}
+
+.servicesP a {
+  color: #000
+}
+
+.servicesP img {
+  width: 25px;
+  margin-left: 20px
+}
+
+.servicesP img:hover {
+  position: relative;
+  -webkit-animation-name: change;
+  animation-name: change;
+  -webkit-animation-duration: .5s;
+  animation-duration: .5s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  cursor: pointer
+}
+
+@media screen and (max-width: 1500px) {
+  .servicesMainDiv {
+      padding:5% 3%
+  }
+
+  .servicesDescription {
+      padding-right: 20%
+  }
+
+  .servicesH2 h2 {
+      font-size: 300%;
+      -webkit-transform: scaleY(1.1);
+      transform: scaleY(1.05)
+  }
+
+  .serviceImage {
+      height: 100%;
+      width: 88%
+  }
+
+  .servicesH3 {
+      padding-bottom: 20%
+  }
+
+  .servicesH3 h3 {
+      font-weight: 500;
+      font-style: normal
+  }
+
+  .servicesH3 h3,.servicesP p {
+      font-size: 1.3rem
+  }
+}
+
+@-webkit-keyframes change {
+  0% {
+      left: 15px;
+      opacity: 0
+  }
+
+  to {
+      left: 0;
+      opacity: 1
+  }
+}
+
+@keyframes change {
+  0% {
+      left: 15px;
+      opacity: 0
+  }
+
+  to {
+      left: 0;
+      opacity: 1
+  }
+}
+
+.servicesDescription-b {
+  padding: 2% 3%
+}
+
+.servicesH2-b {
+  padding: 7% 0
+}
+
+.servicesH2-b h2 {
+  font-weight: lighter;
+  -webkit-font-family: Quarto Light,source-han-serif-sc,serif;
+  font-style: normal;
+  font-size: 38px
+}
+
+.servicesH3-b {
+  font-weight: lighter;
+  padding: 5% 0 3%
+}
+
+.servicesH3-b h3 {
+  font-size: 1.2rem
+}
+
+.servicesP-b p {
+  display: inline-block;
+  font-weight: 700;
+  font-size: large
+}
+
+.servicesP-b p:hover {
+  color: #555151
+}
+
+.servicesP-b img {
+  width: 25px;
+  margin-left: 20px
+}
+
+.servicesP-b img:hover {
+  position: relative;
+  -webkit-animation-name: change-b;
+  animation-name: change-b;
+  -webkit-animation-duration: .5s;
+  animation-duration: .5s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  cursor: pointer
+}
+
+@-webkit-keyframes change-b {
+  0% {
+      left: 15px;
+      opacity: 0
+  }
+
+  to {
+      left: 0;
+      opacity: 1
+  }
+}
+
+@keyframes change-b {
+  0% {
+      left: 15px;
+      opacity: 0
+  }
+
+  to {
+      left: 0;
+      opacity: 1
+  }
+}
+
