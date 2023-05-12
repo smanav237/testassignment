@@ -8,15 +8,15 @@ import Fade from 'react-reveal/Fade';
 
 const testfile = () => {
     return ( 
-      <div>
+      <div className="main_page">
         <div className="collaborate">
           <h4>Let's Collaborate</h4>
         </div>
-        <div className="servicesMainDiv">
+        <div className="content_section">
           <Fade bottom>
             <div className="row">
               <div className="col-md-6">
-                <div className="servicesDescription">
+                <div className="services_section">
                   <div className="servicesH2">
                     <h2>AI + RPA is what we do</h2>
                   </div>
@@ -31,15 +31,16 @@ const testfile = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-md-6">
+              <div className="col-md-6 hello2">
                 <img className="serviceImage" src={rp2} alt="servicesimage"/>
               </div>
             </div>
           </Fade>
+          
           <Fade bottom >
             <div className="row">
               <div className="col-md-6">
-                <div className="servicesDescription">
+                <div className="services_section">
                   <div className="servicesH2">
                     <h2>Make Bolder Choices</h2>
                   </div>
@@ -62,7 +63,7 @@ const testfile = () => {
           <Fade bottom >
             <div className="row">
               <div className="col-md-6">
-                <div className="servicesDescription">
+                <div className="services_section">
                   <div className="servicesH2">
                     <h2>Innovate with Speed</h2>
                   </div>
@@ -85,7 +86,7 @@ const testfile = () => {
           <Fade bottom >
             <div className="row">
               <div className="col-md-6">
-                <div className="servicesDescription">
+                <div className="services_section">
                   <div className="servicesH2">
                     <h2>Embrace Cloud</h2>
                   </div>
