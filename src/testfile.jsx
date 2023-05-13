@@ -14,7 +14,7 @@ const testfile = () => {
         </div>
         <div className="content_section">
           <Fade bottom>
-            <div className="row">
+            <div className="row mhh ">
               <div className="col-md-6">
                 <div className="services_section">
                   <div className="servicesH2">
@@ -31,8 +31,10 @@ const testfile = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 hello2">
-                <img className="serviceImage" src={rp2} alt="servicesimage"/>
+              <div className="col-md-6">
+                <div className = "hello">
+                    <img className="serviceImage" src={rp2} alt="servicesimage"/>
+                </div>
               </div>
             </div>
           </Fade>

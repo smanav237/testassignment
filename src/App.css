@@ -150,24 +150,14 @@ html::-webkit-scrollbar {
   padding-bottom: 1%;
 }
 .servicesH2{
-  font-size: 80%;
+  font-size: 75%;
 }
 
 .servicesH3 h3,.servicesP p {
   font-size: 1.2rem
 }
 }
-/* .hhh   {
-  display:flex;
-  flex-flow: column;
-}
-.servicesH2{order:1;}
-.hello2{order:2}
-.servicesH3{order:3;}
-.servicesp{order:4;} */
-
-
-
+  
 /* ARROW animation*/
 @-webkit-keyframes change {
   0% {
